@@ -1,6 +1,6 @@
 // This file is only necessary for compilation to an executable format(if you don't want to install node)
 const {
-    readFileSync
+   readFileSync
 } = require('fs')
 
 let code
@@ -16,4 +16,4 @@ if (process.argv.length < 3) {
     process.exit(0)
 }
 
-eval(code.toString())
+eval( code.toString() )
